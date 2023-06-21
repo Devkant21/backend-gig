@@ -6,7 +6,7 @@ export default class ReviewsController {
             const ncId = req.body.nc_id
             const review = req.body.review
             const userInfo = {
-                name: req.body.name
+                name: req.body.name,
                 _id: req.body.user_id
             }
             const date = new Date()
